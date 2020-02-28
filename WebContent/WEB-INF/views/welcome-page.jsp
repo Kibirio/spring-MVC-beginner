@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>palmcafe</title>
+<title>${webTitle}</title>
 </head>
 <body>
 <h1 align ="center">Palms cafe</h1>
+my name is: ${nameValue}
 <hr>
 </body>
 </html>
