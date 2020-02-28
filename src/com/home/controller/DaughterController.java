@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class DaughterController {
 
 	@RequestMapping("/food")
-	@ResponseBody
+//	@ResponseBody
 	public String cookFood()
 	{
-		return "You can hire!! I makes the delicious food here...";
+		return "bro";
 	}
 }
