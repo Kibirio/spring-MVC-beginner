@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +7,17 @@
 <title>${webTitle}</title>
 </head>
 <body>
-<h1 align ="center">Palms cafe</h1>
-my name is: ${nameValue}
-<hr>
+	<div align="center">
+		<form action="processOrder">
+			<h1 align="center">Palms cafe</h1>
+			<hr>
+
+			<label for="itemName">Item Name:</label> <input type="text"
+				name="foodType" placeholder="food type" id="itemName"> <input
+				type="submit" value="order now">
+		</form>
+
+	</div>
+
 </body>
 </html>
